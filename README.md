@@ -1,4 +1,4 @@
-# Flight Log Dashboard
+# Flight Log Dashbo02`).ard
 
 A clean, minimalist, and responsive web application designed for aviation enthusiasts and pilots to log, track, and manage their flight details effortlessly. 
 
@@ -14,8 +14,8 @@ A clean, minimalist, and responsive web application designed for aviation enthus
 
 The dashboard allows you to input and save the following metrics:
 * **Date:** The calendar date of the flight.
-* **Airline Name:** The operating airline (e.g., Singapore Airlines).
-* **Callsign:** The operational flight number or ATC callsign (e.g., `SQ002`).
+* **Airline Name:** The operating airline (e.g., Japan Airlines).
+* **Callsign:** The operational flight number or ATC callsign (e.g., `JL001`)
 * **Aircraft:** The specific aircraft model (e.g., Boeing 777-300ER, Airbus A350).
 * **Departure & Arrival Airports:** ICAO or IATA airport codes.
 * **Departure & Arrival Times:** Block times for accurate log history.
