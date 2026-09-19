@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <title>Flight Log Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="card">
+        <div class="card-header">
+          <h1>Flight Log Dashboard</h1>
+          <p class="subtitle">
+            Capture each flight detail in a clean, easy-to-read form.
+          </p>
+        </div>
+
+        <form id="flinfo" class="flight-form">
+          <div class="field-group">
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" />
+          </div>
+
+          <div class="field-group">
+            <label for="airline">Airline Name</label>
+            <input type="text" id="airline" name="airline" />
+          </div>
+
+          <div class="field-group">
+            <label for="callsign">Callsign (e.g. SQ002)</label>
+            <input type="text" id="callsign" name="callsign" />
+          </div>
+
+          <div class="field-group">
+            <label for="aircraft">Aircraft</label>
+            <input type="text" id="aircraft" name="aircraft" />
+          </div>
+
+          <div class="field-group">
+            <label for="depairport">Departure Airport</label>
+            <input type="text" id="depairport" name="depairport" />
+          </div>
+
+          <div class="field-group">
+            <label for="arrairport">Arrival Airport</label>
+            <input type="text" id="arrairport" name="arrairport" />
+          </div>
+
+          <div class="field-group">
+            <label for="deptime">Departure Time</label>
+            <input type="time" id="deptime" name="deptime" />
+          </div>
+
+          <div class="field-group">
+            <label for="arrtime">Arrival Time</label>
+            <input type="time" id="arrtime" name="arrtime" />
+          </div>
+
+          <div class="field-group">
+            <label for="deprw">Departure Runway</label>
+            <input type="text" id="deprw" name="deprw" />
+          </div>
+
+          <div class="field-group">
+            <label for="arrrw">Arrival Runway</label>
+            <input type="text" id="arrrw" name="arrrw" />
+          </div>
+
+          <div class="field-group">
+            <label for="livery">Aircraft Livery</label>
+            <input type="text" id="livery" name="livery" />
+          </div>
+
+          <div class="field-group full-width">
+            <input type="submit" id="submit" value="Submit" />
+          </div>
+        </form>
+
+        <p id="form-status" class="status" aria-live="polite"></p>
+
+        <section class="entries-section" aria-labelledby="entries-heading">
+          <div class="entries-header">
+            <h2 id="entries-heading">Saved Flights</h2>
+          </div>
+          <ul id="entries-list" class="entries-list"></ul>
+        </section>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
